@@ -1,5 +1,7 @@
 import express from "express";
 
+run();
+
 function run() {
   const app = express();
 
@@ -7,5 +9,3 @@ function run() {
     console.log("Server is running on port 3001");
   });
 }
-
-run();
